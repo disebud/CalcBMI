@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo_food"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama : "
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_nama"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_bb"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tinggi Badan : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_tb"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil BMI : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_bmi"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan : "
+            android:textSize="18sp"
+            android:id="@+id/text_view_hasil_ket"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/purple_200"
+            android:text="KEMBALI"
+            android:onClick="kembaliMain"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
